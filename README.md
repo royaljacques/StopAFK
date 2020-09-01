@@ -1,6 +1,6 @@
 # StopAFK   -   A Pocketmine-MP plugin
 
-![logo](stopafk.png)
+![logo](resources/stopafk.png)
 
 StopAFK is a simple PMMP plugin that automatically kicks AFK Players after a configurable amount of time.
 
@@ -15,7 +15,7 @@ This plugin was originally made by **DXM_Hip** under the name [AfkKick](https://
 
 ## Configuration
 
-All configuration options are explained in [config.yml](config.yml)
+All configuration options are explained in [config.yml](resources/config.yml)
 
 ## Bypass permission
 
