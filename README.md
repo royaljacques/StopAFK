@@ -15,7 +15,7 @@ This plugin was originally made by **DXM_Hip** under the name [AfkKick](https://
 
 ## Installation
 
-You can download this plugin as a `.phar` on [Poggit](https://poggit.pmmp.io/ci/Se7en-dev/StopAFK~)
+You can download this plugin as a `.phar` on [Poggit](https://poggit.pmmp.io/ci/Se7en-dev/StopAFK/~)
 
 ## Configuration
 
