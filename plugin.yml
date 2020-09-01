@@ -1,0 +1,21 @@
+#
+#      .d88888b           d88888P                   d88888P d88  d88
+#      88.    "'              d8'                       d8'  88   88
+#      `Y88888b. .d8888b.    d8'  .d8888b. 88d888b.    d8'   88   88
+#            `8b 88ooood8   d8'   88ooood8 88'  `88   d8'    88   88
+#      d8'   .8P 88.  ...  d8'    88.  ... 88    88  d8'     88   88
+#       Y88888P  `88888P' d8'     `88888P' dP    dP d8'     d88P d88P
+#
+#         Original plugin by DXM_Hip. Updated to API 3 by Se7en711
+
+name: Se7en-StopAFK
+main: Se7en711\StopAFK\Main
+version: 2.0
+api: 3.0.0
+author: Se7en711
+description: Automatically kick players who are AFK. Original plugin by DXM_Hip. Updated to API 3 by Se7en711
+
+permissions:
+    stopafk.bypass:
+        description: Players with this permission won't be kicked for being AFK.
+        default: op
