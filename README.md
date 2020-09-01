@@ -13,6 +13,10 @@ This plugin was originally made by **DXM_Hip** under the name [AfkKick](https://
 - Configurable Scan interval for minimal impact on performance
 - Bypass permission
 
+## Installation
+
+You can download this plugin as a `.phar` on [Poggit](https://poggit.pmmp.io/ci/Se7en-dev/StopAFK)
+
 ## Configuration
 
 All configuration options are explained in [config.yml](resources/config.yml)
