@@ -84,7 +84,7 @@ class Main extends PluginBase implements Listener {
     */
     public function hasMoved(Player $player)
     {
-      if($this->pos[$player->getName()] != $this->getPos($player))
+      if($this->pos[$player->getName()] != $this->pGetPos($player))
       {
       $o = false;
       }else{
@@ -107,7 +107,7 @@ class Main extends PluginBase implements Listener {
     * @param Player $player
     * @return boolean
     */
-    public function getPos(Player $player)
+    public function pGetPos(Player $player)
     {
       return [round($player->x),round($player->y),round($player->z),$player->getLevel()];
     }
@@ -115,7 +115,7 @@ class Main extends PluginBase implements Listener {
     *
     * @param Player $player
     */
-    public function setPos(Player $player)
+    public function pSetPos(Player $player)
     {
       $this->pos[$player->getName()] = [round($player->x),round($player->y),round($player->z),$player->getLevel()];
     }
@@ -141,7 +141,7 @@ class Main extends PluginBase implements Listener {
             file_put_contents($this->getDataFolder() . "config.yml",$this->getResource("config.yml"));
             return;
         }
-        if($this->getConfig()->get("Version") == null || $this->getConfig()->get("Version") != "2.0")
+        if($this->getConfig()->get("Version") == null || $this->getConfig()->get("Version") != "2.1")
         {
             $this->getLogger()->info("§cStopAFK : your config file seems to be invalid. A new one has been created.");
 
@@ -159,11 +159,13 @@ class Main extends PluginBase implements Listener {
                 if(isset($this->time[$player->getName()]))
                 {
                    $time = $this->time[$player->getName()];
+                 if($player->isOnline()){
                    if(time() - $time >= ($this->getKickTime() * 60) and !$player->hasPermission("stopafk.bypass"))
                    {
                    $player->kick($this->getKickMsg(), $admin = false);
                    $this->RemovePlayer($player);
                    }
+                  }
                 }
 
             }
