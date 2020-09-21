@@ -33,7 +33,7 @@ class checkAfk extends Task {
 
            if(!isset($this->plugin->pos[$player->getName()]))
            {
-           $this->plugin->setPos($player);
+           $this->plugin->pSetPos($player);
            }
 
            if(!$this->plugin->hasMoved($player)){
