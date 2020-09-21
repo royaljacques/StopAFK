@@ -9,7 +9,7 @@
 #         Original plugin by DXM_Hip. Updated to API 3 by Se7en711
 
 #DO NOT CHANGE THE VERSION !
-Version: 2.1
+Version: 2.2
 #Time (in minutes) for a player to be kicked if he's AFK
 Time: 30
 #Message to be displayed when the player is kicked for being AFK
