@@ -141,7 +141,7 @@ class Main extends PluginBase implements Listener {
             file_put_contents($this->getDataFolder() . "config.yml",$this->getResource("config.yml"));
             return;
         }
-        if($this->getConfig()->get("Version") == null || $this->getConfig()->get("Version") != "2.1")
+        if($this->getConfig()->get("Version") == null || $this->getConfig()->get("Version") != "2.2")
         {
             $this->getLogger()->info("§cStopAFK : your config file seems to be invalid. A new one has been created.");
 
