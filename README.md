@@ -35,4 +35,4 @@ This permission is given to OP's by default, so they won't be affected by the pl
 ## License
 
 This plugin is licensed under **GNU General Public License v3.0**
-#### Thank you for downloading my plugin ! All credits of the original code goes to DXM_Hip. If you have any questions add me on Discord : Se7en#3029
+#### Thank you for downloading my plugin ! All credits of the original code goes to DXM_Hip. If you have any questions add me on Discord : Se7en#9999
